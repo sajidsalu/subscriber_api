@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/642e807c94d8b1d56b682e08
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+	"name": "green lantern",
+	"subscribedToChannel": "dceu"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/642e64a8c791afaeee2d6293
